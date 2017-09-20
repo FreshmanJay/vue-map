@@ -1,0 +1,262 @@
+.animate {
+  -webkit-transition:  all;
+  transition:  all;
+  -webkit-transition-duration:  0.3s;
+  transition-duration:  0.3s; }
+
+body {
+  max-width: 720px;
+  height: 100%;
+  overflow: hidden; }
+
+.loading1 {
+  width:  2rem;
+  height:  2rem;
+  margin-top:  0.66667rem; }
+
+.loading2 {
+  padding:  1.33333rem 1.33333rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size:  0.93333rem;
+  color: #666; }
+
+.page_none {
+  width:  14rem;
+  height:  10.93333rem;
+  margin-top:  3.33333rem; }
+
+.none_wz {
+  text-align: center;
+  margin-top:  1.33333rem; }
+
+.page {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%; }
+  .page .banner {
+    width: 100%; }
+  .page .nav {
+    width: 80%;
+    display: -webkit-box;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    padding-top:  1rem;
+    background: #fff; }
+    .page .nav span {
+      display: block;
+      color: #999;
+      font-size:  1rem; }
+    .page .nav .activeClass {
+      color: #333;
+      padding-bottom:  0.66667rem;
+      border-bottom: 1px solid #333; }
+  .page .page_content {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+    -webkit-box-orient: vertical; }
+    .page .page_content .page_item {
+      display: -webkit-box;
+      -webkit-box-orient: horizontal;
+      padding:  1rem 1rem;
+      line-height:  1.46667rem; }
+      .page .page_content .page_item .item_left {
+        display: -webkit-box;
+        -webkit-box-flex: 1;
+        -webkit-box-align: center; }
+        .page .page_content .page_item .item_left .item_avatar {
+          display: -webkit-box;
+          position: relative; }
+          .page .page_content .page_item .item_left .item_avatar .avatar {
+            width:  4rem;
+            height:  4rem; }
+          .page .page_content .page_item .item_left .item_avatar .coach_rz {
+            position: absolute;
+            right:  -0.33333rem;
+            bottom: 0;
+            width:  1.2rem;
+            height:  1.2rem; }
+        .page .page_content .page_item .item_left .item_infor {
+          display: -webkit-box;
+          -webkit-box-flex: 1;
+          -webkit-box-orient: vertical;
+          margin-left:  1rem;
+          line-height:  1.6rem; }
+          .page .page_content .page_item .item_left .item_infor .item_top {
+            font-family: PingFangSC-Medium;
+            color: #333333;
+            vertical-align: middle; }
+            .page .page_content .page_item .item_left .item_infor .item_top span {
+              font-size:  1rem;
+              vertical-align: middle; }
+            .page .page_content .page_item .item_left .item_infor .item_top i {
+              font-size:  0.8rem;
+              border: 1px solid #333333;
+              -webkit-border-radius:  0.13333rem;
+              border-radius:  0.13333rem;
+              padding:  0rem 0.13333rem;
+              margin-left:  0.53333rem;
+              vertical-align: middle; }
+            .page .page_content .page_item .item_left .item_infor .item_top .jiaxiao_rz {
+              display: inline-block;
+              width:  1.2rem;
+              height:  1.2rem;
+              margin-left:  0.53333rem;
+              margin-top:  -0.06667rem;
+              vertical-align: middle; }
+            .page .page_content .page_item .item_left .item_infor .item_top .item_gold {
+              display: inline-block;
+              width:  1.06667rem;
+              height:  1.06667rem;
+              vertical-align: middle;
+              margin-left:  0.53333rem; }
+          .page .page_content .page_item .item_left .item_infor .item_mid {
+            font-family: PingFangSC-Light;
+            font-size:  0.8rem;
+            color: #FE4648; }
+          .page .page_content .page_item .item_left .item_infor .item_bot {
+            font-family: PingFangSC-Light;
+            font-size:  0.8rem;
+            color: #333333; }
+            .page .page_content .page_item .item_left .item_infor .item_bot span {
+              padding-right:  0.33333rem; }
+            .page .page_content .page_item .item_left .item_infor .item_bot i {
+              border-left: 1px solid #eee;
+              padding-left:  0.33333rem; }
+      .page .page_content .page_item .item_right {
+        display: -webkit-box;
+        -webkit-box-align: center;
+        font-family: PingFangSC-Regular;
+        color: #612208; }
+        .page .page_content .page_item .item_right span {
+          display: block;
+          width:  5.2rem;
+          height:  1.73333rem;
+          line-height:  1.86667rem;
+          text-align: center;
+          -webkit-border-radius:  1.86667rem;
+          border-radius:  1.86667rem;
+          font-size:  0.8rem;
+          background-image: linear-gradient(-130deg, #FFE179 0%, #FFBA0D 100%);
+          background-image: -webkit-linear-gradient(-130deg, #FFE179 0%, #FFBA0D 100%); }
+
+.page_home {
+  display: -webkit-box;
+  height: 100%;
+  -webkit-box-orient: vertical; }
+  .page_home .home_title {
+    background: #F4F7F7;
+    display: -webkit-box;
+    padding:  1rem 1.33333rem; }
+    .page_home .home_title span {
+      display: inline-block;
+      width:  4rem;
+      text-align: center;
+      vertical-align: middle;
+      line-height:  2rem;
+      font-family: PingFangSC-Regular;
+      font-size:  1.06667rem;
+      color: #333333; }
+    .page_home .home_title .home_ss {
+      width: 100%;
+      display: -webkit-box;
+      background: #fff;
+      line-height:  2rem; }
+      .page_home .home_title .home_ss img {
+        display: inline-block;
+        width: 100%;
+        width:  1.06667rem;
+        height:  1.06667rem;
+        vertical-align: middle;
+        padding-left:  0.66667rem;
+        line-height:  2rem; }
+      .page_home .home_title .home_ss input {
+        line-height:  2rem;
+        font-size:  1.06667rem;
+        vertical-align: middle; }
+  .page_home #l-map {
+    width: 100%;
+    height: 50%; }
+  .page_home .home_content {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+    overflow: auto; }
+    .page_home .home_content .home_item {
+      padding:  1.66667rem 0rem 1rem 0rem;
+      margin-left:  1rem;
+      border-bottom: 1px solid #eee;
+      display: -webkit-box;
+      -webkit-box-align: center; }
+      .page_home .home_content .home_item img {
+        display: inline-block;
+        width:  0.93333rem;
+        height:  1.2rem; }
+      .page_home .home_content .home_item .home_infor {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-box-flex: 1;
+        padding-left:  1.06667rem; }
+        .page_home .home_content .home_item .home_infor div:first-child {
+          font-family: PingFangSC-Regular;
+          font-size:  1.06667rem;
+          color: #333333;
+          line-height: 16px; }
+        .page_home .home_content .home_item .home_infor div:last-child {
+          ont-family: PingFangSC-Regular;
+          font-size:  0.93333rem;
+          color: #999999;
+          line-height: 14px;
+          margin-top:  0.53333rem; }
+
+.page_toast {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.75); }
+  .page_toast .toast_clo {
+    position: relative;
+    background: #FFFFFF;
+    width: 80%;
+    -webkit-border-radius:  0.66667rem;
+    border-radius:  0.66667rem;
+    margin: 0 auto;
+    margin-top:  13.33333rem;
+    padding-bottom:  2rem; }
+    .page_toast .toast_clo img {
+      position: absolute;
+      right:  0.66667rem;
+      top:  0.66667rem;
+      display: inline-block;
+      width:  1.66667rem;
+      height:  1.66667rem; }
+    .page_toast .toast_clo h1 {
+      text-align: center;
+      padding-top:  4.66667rem;
+      font-family: PingFangSC-Regular;
+      font-size:  1rem;
+      color: #333333; }
+    .page_toast .toast_clo .toast_add {
+      display: block;
+      width:  10.66667rem;
+      height:  2.93333rem;
+      line-height:  2.93333rem;
+      margin: 0 auto;
+      text-align: center;
+      font-family: PingFangSC-Regular;
+      font-size:  1.06667rem;
+      color: #FFFFFF;
+      background-image: linear-gradient(-90deg, #00E0E5 3%, #0086FA 95%);
+      background-image: -webkit-linear-gradient(-90deg, #00E0E5 3%, #0086FA 95%);
+      -webkit-border-radius:  2rem;
+      border-radius:  2rem;
+      margin-top:  2.66667rem; }
+
+/*# sourceMappingURL=style.css.map */
